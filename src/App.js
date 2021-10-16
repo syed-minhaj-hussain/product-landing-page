@@ -15,8 +15,6 @@ function App() {
         <Route path="/brand/:brandName" element={<ProductsByBrand />} />
         <Route path="/brands" element={<Brands />} />
       </Routes>
-
-      <Filter />
     </div>
   );
 }

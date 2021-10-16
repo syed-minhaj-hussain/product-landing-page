@@ -1,15 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import navStyle from "./navbar.module.css";
 
 export const Navbar = () => {
   return (
-    <nav>
+    <nav className={navStyle.navbar}>
       <NavLink
         to="/"
         activeStyle={{
           fontWeight: "bold",
           color: "red",
         }}
+        style={{ textDecoration: "none" }}
         end
       >
         Home
@@ -21,6 +23,7 @@ export const Navbar = () => {
           fontWeight: "bold",
           color: "red",
         }}
+        style={{ textDecoration: "none" }}
       >
         Brands
       </NavLink>{" "}
@@ -31,6 +34,7 @@ export const Navbar = () => {
           fontWeight: "bold",
           color: "red",
         }}
+        style={{ textDecoration: "none" }}
       >
         Men
       </NavLink>{" "}
@@ -41,6 +45,7 @@ export const Navbar = () => {
           fontWeight: "bold",
           color: "red",
         }}
+        style={{ textDecoration: "none" }}
       >
         Women
       </NavLink>{" "}

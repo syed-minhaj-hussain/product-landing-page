@@ -8,12 +8,62 @@ export const Brands = () => {
   const usPolo = "US POLO";
   const reebok = "Reebok";
   return (
-    <div>
-      <Link to={`/brand/${nike}`}>Nike</Link> ||
-      <Link to={`/brand/${adidas}`}>Adidas</Link> ||
-      <Link to={`/brand/${puma}`}>Puma</Link> ||
-      <Link to={`/brand/${usPolo}`}>US POLO</Link> ||
-      <Link to={`/brand/${reebok}`}>Reebok</Link> ||
+    <div style={{ marginTop: "1rem" }}>
+      <Link
+        to={`/brand/${nike}`}
+        style={{
+          textDecoration: "none",
+          padding: "0.25rem 0.5rem",
+          backgroundColor: "#000",
+          color: "#fff",
+        }}
+      >
+        Nike
+      </Link>{" "}
+      <Link
+        to={`/brand/${adidas}`}
+        style={{
+          textDecoration: "none",
+          padding: "0.25rem 0.5rem",
+          backgroundColor: "#000",
+          color: "#fff",
+        }}
+      >
+        Adidas
+      </Link>{" "}
+      <Link
+        to={`/brand/${puma}`}
+        style={{
+          textDecoration: "none",
+          padding: "0.25rem 0.5rem",
+          backgroundColor: "#000",
+          color: "#fff",
+        }}
+      >
+        Puma
+      </Link>{" "}
+      <Link
+        to={`/brand/${usPolo}`}
+        style={{
+          textDecoration: "none",
+          padding: "0.25rem 0.5rem",
+          backgroundColor: "#000",
+          color: "#fff",
+        }}
+      >
+        US POLO
+      </Link>{" "}
+      <Link
+        to={`/brand/${reebok}`}
+        style={{
+          textDecoration: "none",
+          padding: "0.25rem 0.5rem",
+          backgroundColor: "#000",
+          color: "#fff",
+        }}
+      >
+        Reebok
+      </Link>{" "}
     </div>
   );
 };

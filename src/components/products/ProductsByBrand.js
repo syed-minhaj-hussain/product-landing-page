@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../../productsDB";
+import { Brands } from "../brands/Brands";
 import productStyle from "./product.module.css";
 
 export const ProductsByBrand = () => {
@@ -12,6 +13,7 @@ export const ProductsByBrand = () => {
   console.log(filteredProduct);
   return (
     <div className={productStyle.container}>
+      <Brands /> <br />
       <div className={productStyle.main}>
         {filteredProduct?.map(
           ({ name, description, image, price, id, inStock, fastDelivery }) => (
