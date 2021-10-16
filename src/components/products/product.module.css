@@ -5,7 +5,12 @@
 }
 .container {
   max-width: 1100px;
-  margin: 0.5rem auto;
+  margin-left: 16%;
+  margin-top: 3rem;
+}
+.brandContainer {
+  max-width: 1100px;
+  margin: 1rem auto;
 }
 .main {
   display: grid;

@@ -1,0 +1,30 @@
+.card {
+  border: 1px solid black;
+  max-width: 250px;
+  height: 150px;
+  /* border-radius: 1rem; */
+  position: fixed;
+  z-index: 2;
+  background-color: #fff;
+  left: 0.5rem;
+  margin-top: 0.25rem;
+}
+.btn {
+  background-color: #fff;
+  padding: 0.2rem 0.5rem;
+  border: 0.1rem solid black;
+  color: #000;
+  text-align: center;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  border: 0.1rem solid black;
+}
+.dark {
+  background-color: #000;
+  color: #fff;
+  border: 0.1rem solid black;
+}

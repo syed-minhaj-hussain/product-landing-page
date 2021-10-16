@@ -23,7 +23,7 @@ export const Navbar = () => {
         Home
       </NavLink>{" "}
       <NavLink
-        to="/brands"
+        to="/brand/Nike"
         activeStyle={{
           fontWeight: "bold",
           color: "red",
