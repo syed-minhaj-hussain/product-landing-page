@@ -8,7 +8,7 @@ export const Brands = () => {
   const usPolo = "US POLO";
   const reebok = "Reebok";
   return (
-    <div style={{ marginTop: "1rem" }}>
+    <div style={{ marginTop: "3.5rem" }}>
       <Link
         to={`/brand/${nike}`}
         style={{

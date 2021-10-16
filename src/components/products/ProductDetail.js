@@ -21,10 +21,10 @@ export const ProductDetail = () => {
     // return false;
   });
 
-  console.log(sortBy);
-  console.log(sortedProducts);
-  console.log(sortBySize);
-  console.log(size);
+  // console.log(sortBy);
+  // console.log(sortedProducts);
+  // console.log(sortBySize);
+  // console.log(size);
   return (
     <div className={productStyle.container}>
       <Filter
