@@ -1,7 +1,7 @@
 .card {
   border: 1px solid black;
   max-width: 250px;
-  height: 150px;
+  height: 160px;
   /* border-radius: 1rem; */
   position: fixed;
   z-index: 2;
@@ -16,7 +16,8 @@
   color: #000;
   text-align: center;
   margin-right: 1rem;
-  margin-top: 0.2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.1rem;
 }
 .btn:hover {
   background-color: #000;

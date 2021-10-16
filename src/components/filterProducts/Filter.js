@@ -50,6 +50,16 @@ export const Filter = ({ sortBy, setsortBy, size, setSize }) => {
       >
         XL
       </button>
+      <br />
+      <button
+        className={filterStyle.btn}
+        onClick={() => {
+          setSize("S");
+          setsortBy("LOW_TO_HIGH");
+        }}
+      >
+        clear all
+      </button>
     </div>
   );
 };
